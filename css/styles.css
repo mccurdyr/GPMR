@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(148, 47, 47);
+}
+
+
+
+.mainContent {
+    background-image: url("/img/marble1.jpg");
+    
+}
+
+.introduction, .aboutUs, .process, .contactUs {
+    border: solid;
+    /* border-top: solid;
+    border-bottom: solid; */
+    /* border-color: red; */
+    background-color: white;
+}
+
+.sidelineLeft, .sidelineRight {
+    background-image: url("/img/BrixEdit1.jpg");
+}
+
+
+
