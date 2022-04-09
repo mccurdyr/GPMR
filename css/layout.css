@@ -1,0 +1,78 @@
+
+body{
+    height:100%;
+    width:100%;
+}
+
+
+.header{
+    width:100%;
+    margin:0 auto;
+    position: fixed;
+    border:solid;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+
+#logo{
+    height:100px;
+    width:100px;
+}
+
+.info{
+    margin-right:10px;
+    display:grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: end;
+    text-align: center;
+}
+
+.info h1{
+    padding:15px;
+    border-color: red;
+    border:solid;
+    size: small;
+}
+
+
+.mainContent {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    
+}
+
+.introduction, .aboutUs, .process, .contactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutUs, .process, .contactUs {
+    margin-top: 5rem;
+}
+
+.sidelineLeft {
+    position:fixed;
+    left:0;
+    height:100%;
+    z-index: 0;
+    top: 0;
+    width: 10%;
+}
+
+.sidelineRight {
+    position:fixed;
+    right:0;
+    height:100%;
+    z-index: 0;
+    top: 0;
+    width: 10%;
+}
