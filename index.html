@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="./css/cell.css">
     <title>GPMR</title>
 </head>
 <body>
     <header class="header">
-        <img id="logo" src="fe" alt="">
+        <img id="logo" src="img/gpmr2.jpg" alt="">
         <section class="info">    
-            <h1>Contact us</h1>
-            <h1>Projects</h1>
-            <h1>Services</h1>
-            <h1>Contact Us</h1>
+            <h3 id="contactUs">Contact us</h3>
+            <h3 id="projects">Projects</h3>
+            <h3 id="services">Services</h3>
+            <h3 id="Something-else">Contact Us</h3>
         </section>
     </header>
 
@@ -25,8 +26,9 @@
     <section class="mainContent">
 
         <section class="introduction">
-            <h1>General Preventive Masonry Restoration</h1>
-            <h3>Welcome to GPMR, the finest, family-owned masons of Northeast Ohio!</h3>
+            <img src="./img/gpmr.jpg" class="logoMain">
+            <h1 class="gpmrMain">General Preventive Masonry Restoration</h1>
+            <h3 class="mainIntro">Welcome to GPMR, the finest, family-owned masons of Northeast Ohio!</h3>
         </section>
 
         <section class="aboutUs">
@@ -48,15 +50,17 @@
 
         <section class="contactUs">
             <h3>Contact Us!</h3>
-            <input type="text" placeholder="Enter your name here" class="customerName">
-            <input type="text" placeholder="Enter your phone number" class="customerNumber">
-            <input type="text" placeholder="Enter a brief description of the work needed" class="customerWorkNeeded">
-            <button class="submit">Submit</button>
+            <form action="mailto:ryan.mccurdy96@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="Name" placeholder="Enter your name here" class="customerName">
+                <input type="text" name="Number" placeholder="Enter your phone number" class="customerNumber">
+                <input type="text" name="Description" placeholder="Enter a brief description of the work needed" class="customerWorkNeeded">
+                <input type="submit" value="Send">
+            </form>
         </section>
 
     </section>
 
     
-
+<script type="module" src="./js/app.js"></script>
 </body>
 </html>

@@ -1,9 +1,4 @@
 
-body{
-    height:100%;
-    width:100%;
-}
-
 
 .header{
     width:100%;
@@ -17,8 +12,11 @@ body{
 }
 
 #logo{
-    height:100px;
-    width:100px;
+    position:absolute;
+    top:2px;
+    left:20px;
+    height:90%;
+    /* width:100px; */
 }
 
 .info{
@@ -28,21 +26,28 @@ body{
     grid-template-columns: auto auto auto auto;
     justify-content: end;
     text-align: center;
+    
 }
 
-.info h1{
-    padding:15px;
-    border-color: red;
+.info h3{
+    padding:5px;
+    border-color: rgb(255, 255, 255);
     border:solid;
     size: small;
+    border-radius: 5px;
+    cursor:pointer;
 }
 
 
 .mainContent {
-    padding-left: 20%;
-    padding-right: 20%;
+    /* padding-left: 20%;
+    padding-right: 20%; */
     padding-top: 10%;
     
+}
+
+.logoMain {
+    display: none;
 }
 
 .introduction, .aboutUs, .process, .contactUs {
@@ -51,12 +56,18 @@ body{
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin:20px auto;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 85%;
 }
 
 .aboutUs, .process, .contactUs {
     margin-top: 5rem;
+}
+
+.description{
+    max-width: 80%;
 }
 
 .sidelineLeft {
@@ -65,7 +76,7 @@ body{
     height:100%;
     z-index: 0;
     top: 0;
-    width: 10%;
+    width: 6%;
 }
 
 .sidelineRight {
@@ -74,5 +85,14 @@ body{
     height:100%;
     z-index: 0;
     top: 0;
-    width: 10%;
+    width: 6%;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    
 }

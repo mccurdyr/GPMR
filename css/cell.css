@@ -1,0 +1,63 @@
+
+.header{
+    width:100%;
+    margin:0 auto;
+    position: fixed;
+    border:solid;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+
+#logo{
+    position:absolute;
+    top:2px;
+    left:10px;
+    height:90%;
+    display: none;
+    /* width:100px; */
+}
+
+.info{
+    margin-right:10px;
+    display:grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.info h3{
+    font-size: 14px;
+    padding:5px;
+    border-color: rgb(255, 255, 255);
+    border:solid;
+    size: small;
+    border-radius: 5px;
+}
+
+.gpmrMain{
+    display: none;
+}
+
+.mainIntro {
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 0;
+}
+
+.introduction {
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.logoMain {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
