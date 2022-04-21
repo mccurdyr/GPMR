@@ -1,12 +1,16 @@
 .header{
-    background-color: rgb(148, 47, 47);
+    background-color: rgb(255, 255, 255);
 }
 
 
 
 .mainContent {
     background-image: url("/img/marble1.jpg");
-    
+    min-height: 25px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .introduction, .aboutUs, .process, .contactUs {
@@ -17,9 +21,9 @@
     background-color: white;
 }
 
-.sidelineLeft, .sidelineRight {
+/* .sidelineLeft, .sidelineRight {
     background-image: url("/img/BrixEdit1.jpg");
-}
+} */
 
 
 
